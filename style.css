@@ -1,0 +1,12 @@
+.titles {
+	font-family: helvetica;
+}
+
+#backbutton {
+	background-color: #BEE7E8;
+	border-radius: 5px;
+}
+
+body {
+	padding: 50px 100px;
+}
