@@ -1,4 +1,4 @@
-.titles {
+h1, h2 {
 	font-family: helvetica;
 }
 
@@ -13,11 +13,7 @@ body {
 }
 
 p, li, a {
-	font-family: sans-serif;
-}
-
-h2 {
-	font-family: montserrat;
+	font-family: Arial;
 }
 
 hr {
