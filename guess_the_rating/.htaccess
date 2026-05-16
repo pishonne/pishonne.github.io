@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteBase /guess_the_rating/
+
+# If file or folder exists, serve it normally
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Otherwise serve index.html (SPA fallback)
+RewriteRule . index.html [L]
